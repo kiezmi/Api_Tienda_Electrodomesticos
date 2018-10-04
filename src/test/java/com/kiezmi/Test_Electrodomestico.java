@@ -17,6 +17,8 @@ public class Test_Electrodomestico {
     /**
      * Rigorous Test :-)
      */
+
+    //Electrodomestico
     @Test
     public void itObjectisInstanceOfClass() {
         Electrodomestico subClass = new Electrodomestico();
@@ -91,6 +93,9 @@ public class Test_Electrodomestico {
     }
 
 
+
+    //Lavadora
+
     @Test
     public void itObjectisInstanceOfClassLavadora() {
         Lavadora subClass = new Lavadora();
@@ -122,6 +127,9 @@ public class Test_Electrodomestico {
         field.setAccessible(true);
         assertEquals("Fields didn't match", field.get(Whirpool), 5);
     }
+
+
+        //Televisor
 
 
 }
