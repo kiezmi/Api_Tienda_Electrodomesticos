@@ -21,11 +21,11 @@ public class Televisor extends Electrodomestico {
 
     //Geters & Seters
     public int getResolucion() {
-        return resolucion;
+        return this.resolucion;
     }
 
     public void setResolucion(int pulgadas) {
-        this.resolucion = resolucion;
+        this.resolucion = pulgadas;
     }
 
     public boolean isSintonizador_TDT() {

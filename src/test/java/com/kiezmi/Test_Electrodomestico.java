@@ -178,7 +178,7 @@ public class Test_Electrodomestico {
         assertEquals("Fields didn't match", field.get(LG), true);
     }
 
-   /* @Test
+   @Test
     public void testSetResolucion() {
         System.out.println("Testeo de seter");
         int resolucion = 567;
@@ -186,8 +186,8 @@ public class Test_Electrodomestico {
         LG.setResolucion(resolucion);
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(LG.getResolucion(), resolucion);
-    }*/
-/*
+    }
+
     @Test
     public void testGetResolucion() {
         System.out.println("Testeo de geter");
@@ -199,23 +199,7 @@ public class Test_Electrodomestico {
         int result = LG.getResolucion();
         assertEquals(expResult, result);
     }
-*//*
-    @Test
-    public void shouldSetResolucion() {
-        System.out.println("Testeo de seter");
-        Televisor gadget = new Televisor();
-        gadget.setResolucion(300);
-        System.out.println(gadget.getResolucion());
-        assertEquals(300, gadget.getResolucion());
-    }
-    *//*
-   @Test
-   public void testGetResolucion()
-   {
-       Televisor gadget = new Televisor(200,5, Electrodomestico.Colores.BLANCO, Electrodomestico.ConsumoElectronico.B,200,false);
-       int moco = gadget.getResolucion();
-       assertEquals(200, moco);
-   }*/
+
 
 }
 
