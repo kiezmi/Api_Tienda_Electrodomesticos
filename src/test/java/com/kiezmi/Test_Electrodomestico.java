@@ -6,6 +6,7 @@ import static org.junit.Assert.assertThat;
 
 import com.kiezmi.models.Electrodomestico;
 import com.kiezmi.models.Lavadora;
+import com.kiezmi.models.Televisor;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
@@ -93,7 +94,6 @@ public class Test_Electrodomestico {
     }
 
 
-
     //Lavadora
 
     @Test
@@ -129,8 +129,38 @@ public class Test_Electrodomestico {
     }
 
 
-        //Televisor
+    //Televisor
+    @Test
+    public void itObjectisInstanceOfClassTelevisor() {
+        Televisor subClass = new Televisor();
+        assertThat(subClass, instanceOf(Lavadora.class));
+    }
 
+    @Test
+    public void itObjectisInstanceOfClasswhit2paramsTelevisor() {
+        Televisor subClass = new Televisor(200, 5);
+        assertThat(subClass, instanceOf(Lavadora.class));
+    }
+
+    @Test
+    public void itObjectisInstanceOfClasswhit5paramsTelevisor() {
+        Televisor subClass = new Televisor(200, 5, Electrodomestico.Colores.BLANCO, Electrodomestico.ConsumoElectronico.B, 20,false);
+        assertThat(subClass, instanceOf(Televisor.class));
+    }
+
+    @Test
+    public void getsetResolucion() throws NoSuchFieldException, IllegalAccessException {
+        //given
+        final Televisor LG = new Televisor();
+
+        //when
+        LG.setResolucion(20);
+
+        //then
+        final Field field = LG.getClass().getDeclaredField("resolucion");
+        field.setAccessible(true);
+        assertEquals("Fields didn't match", field.get(LG), 20);
+    }
 
 }
 

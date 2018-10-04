@@ -3,12 +3,12 @@ package com.kiezmi.models;
 public class Televisor extends Electrodomestico {
 
     //Variables
-    int pulgadas;
+    int resolucion;
     boolean sintonizador_TDT;
 
     //Constructores
     public Televisor() {
-       this.pulgadas = 20;
+       this.resolucion = 20;
        this.sintonizador_TDT = false;
     }
     public Televisor(double precioBase, double peso) {
@@ -18,12 +18,12 @@ public class Televisor extends Electrodomestico {
     }
 
     //Geters & Seters
-    public int getPulgadas() {
-        return pulgadas;
+    public int getResolucion() {
+        return resolucion;
     }
 
-    public void setPulgadas(int pulgadas) {
-        this.pulgadas = pulgadas;
+    public void setResolucion(int pulgadas) {
+        this.resolucion = resolucion;
     }
 
     public boolean isSintonizador_TDT() {
