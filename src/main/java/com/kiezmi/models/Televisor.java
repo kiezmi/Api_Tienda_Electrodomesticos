@@ -8,10 +8,12 @@ public class Televisor extends Electrodomestico {
 
     //Constructores
     public Televisor() {
+       super();
        this.resolucion = 20;
        this.sintonizador_TDT = false;
     }
     public Televisor(double precioBase, double peso) {
+        super();
     }
     public Televisor(double precioBase, double peso, Colores color, ConsumoElectronico miconsumo,int pulgadas, boolean sintonizador_TDT) {
 
