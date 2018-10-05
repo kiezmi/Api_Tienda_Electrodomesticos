@@ -1,18 +1,18 @@
 package com.kiezmi;
 
-import static junit.framework.TestCase.assertEquals;
-import static org.hamcrest.core.IsInstanceOf.instanceOf;
-import static org.junit.Assert.assertThat;
 
 import com.kiezmi.models.Electrodomestico;
 import com.kiezmi.models.Lavadora;
 import com.kiezmi.models.Televisor;
 import org.junit.Test;
 
-import java.lang.reflect.Field;
+import static junit.framework.TestCase.assertEquals;
+import static org.hamcrest.core.IsInstanceOf.instanceOf;
+import static org.junit.Assert.assertThat;
+
 
 /**
- * Unit test for simple App.
+ * Unit test for simple Ejecutable.
  */
 public class Test_Electrodomestico {
     /**
@@ -34,7 +34,7 @@ public class Test_Electrodomestico {
 
     @Test
     public void itObjectisInstanceOfClasswhit4params() {
-        Electrodomestico subClass = new Electrodomestico(200, 5, Electrodomestico.Colores.BLANCO, Electrodomestico.ConsumoElectronico.B);
+        Electrodomestico subClass = new Electrodomestico(200, 5, "BLANCO", 'B');
         assertThat(subClass, instanceOf(Electrodomestico.class));
     }
 
@@ -85,34 +85,6 @@ public class Test_Electrodomestico {
         double result = movil.getPeso();
         assertEquals(expResult, result);
     }
-    @Test
-    public void getsetColor() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        final Electrodomestico movil = new Electrodomestico();
-
-        //when
-        movil.setColor(Electrodomestico.Colores.BLANCO);
-
-        //then
-        final Field field = movil.getClass().getDeclaredField("color");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(movil), Electrodomestico.Colores.BLANCO);
-    }
-
-    @Test
-    public void getsetMiConsumo() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        final Electrodomestico movil = new Electrodomestico();
-
-        //when
-        movil.setMiConsumo(Electrodomestico.ConsumoElectronico.B);
-
-        //then
-        final Field field = movil.getClass().getDeclaredField("miConsumo");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(movil), Electrodomestico.ConsumoElectronico.B);
-    }
-
 
     //Lavadora
 
@@ -130,7 +102,7 @@ public class Test_Electrodomestico {
 
     @Test
     public void itObjectisInstanceOfClasswhit5paramsLavadora() {
-        Lavadora subClass = new Lavadora(200, 5, Electrodomestico.Colores.BLANCO, Electrodomestico.ConsumoElectronico.B, 5);
+        Lavadora subClass = new Lavadora(200, 5, "BLANCO",'B', 5);
         assertThat(subClass, instanceOf(Lavadora.class));
     }
 
@@ -175,7 +147,7 @@ public class Test_Electrodomestico {
 
     @Test
     public void itObjectisInstanceOfClasswhit5paramsTelevisor() {
-        Televisor subClass = new Televisor(200, 5, Electrodomestico.Colores.BLANCO, Electrodomestico.ConsumoElectronico.B, 20, false);
+        Televisor subClass = new Televisor(200, 5, "BLANCO", 'B',20, false);
         assertThat(subClass, instanceOf(Televisor.class));
     }
 
@@ -219,14 +191,65 @@ public class Test_Electrodomestico {
     public void testGetSintonizador_TDT() {
         System.out.println("Testeo de geter TDT");
         Televisor LG = new Televisor();
+
         System.out.println(LG.isSintonizador_TDT());
         boolean expResult = true;
+
         LG.setSintonizador_TDT(true);
         System.out.println(LG.isSintonizador_TDT());
+
         boolean result = LG.isSintonizador_TDT();
         assertEquals(expResult, result);
     }
 
+    @Test
+    public void testGetConsumoElectronico() {
+        Electrodomestico portatil = new Electrodomestico();
+        assertEquals(Electrodomestico.ConsumoElectronico.B, portatil.getMiConsumo());
+    }
 
+    @Test
+    public void testSetConsumoElectronico() {
+        Electrodomestico portatil = new Electrodomestico();
+        portatil.setMiConsumo(Electrodomestico.ConsumoElectronico.B);
+        assertEquals(Electrodomestico.ConsumoElectronico.B, portatil.getMiConsumo());
+    }
+    @Test
+    public void testGetColor() {
+        Electrodomestico portatil = new Electrodomestico();
+        assertEquals(Electrodomestico.Colores.BLANCO, portatil.getColor());
+    }
+
+    @Test
+    public void testSetColor() {
+        Electrodomestico portatil = new Electrodomestico();
+        portatil.setColor(Electrodomestico.Colores.ROJO);
+        assertEquals(Electrodomestico.Colores.ROJO, portatil.getColor());
+    }
+
+    //ComprobarConsumoEnergetico
+    @Test
+    public void testComprobarConsumoEnergetico() {
+        System.out.println("Testeo del consumo energetico");
+        Electrodomestico bateria = new Electrodomestico();
+        System.out.println(bateria.getMiConsumo());
+        assertEquals(Electrodomestico.ConsumoElectronico.B, bateria.getMiConsumo());
+    }
+
+    //ComprobarColor
+    @Test
+    public void testComprobarColor() {
+        System.out.println("Testeo del color");
+        Electrodomestico bateria = new Electrodomestico();
+        System.out.println(bateria.getColor());
+        assertEquals(Electrodomestico.Colores.BLANCO, bateria.getColor());
+    }
+
+    @Test
+    public void testPrecioFinal(){
+        System.out.println("Testeo del precio final de Electrodomestico");
+        Electrodomestico PC = new Electrodomestico();
+        assertEquals(PC.precioFinal(PC),295.0);
+    }
 }
 

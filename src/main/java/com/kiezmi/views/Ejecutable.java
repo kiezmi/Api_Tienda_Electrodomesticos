@@ -1,10 +1,10 @@
-package com.kiezmi;
+package com.kiezmi.views;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class Ejecutable
 {
     public static void main( String[] args )
     {
