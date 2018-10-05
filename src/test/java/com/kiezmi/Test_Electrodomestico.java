@@ -148,42 +148,14 @@ public class Test_Electrodomestico {
         assertThat(subClass, instanceOf(Televisor.class));
     }
 
-    /* @Test
-     public void getsetResolucion() throws NoSuchFieldException, IllegalAccessException {
-         //given
-         System.out.println("Testeo de geter y seter Resolucion");
-         final Televisor LG = new Televisor();
-
-         //when
-         LG.setResolucion(20);
-
-         //then
-         final Field field = LG.getClass().getDeclaredField("resolucion");
-         field.setAccessible(true);
-         assertEquals("Fields didn't match", field.get(LG), 20);
-     }
-     */
     @Test
-    public void getsetsintonizador_TDT() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        System.out.println("Testeo de ");
-        final Televisor LG = new Televisor();
-
-        //when
-        LG.setSintonizador_TDT(true);
-
-        //then
-        final Field field = LG.getClass().getDeclaredField("sintonizador_TDT");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(LG), true);
-    }
-
-   @Test
     public void testSetResolucion() {
         System.out.println("Testeo de seter");
         int resolucion = 567;
         Televisor LG = new Televisor();
+        System.out.println(LG.getResolucion());
         LG.setResolucion(resolucion);
+        System.out.println(LG.getResolucion());
         // TODO review the generated test code and remove the default call to fail.
         assertEquals(LG.getResolucion(), resolucion);
     }
@@ -197,6 +169,30 @@ public class Test_Electrodomestico {
         LG.setResolucion(800);
         System.out.println(LG.getResolucion());
         int result = LG.getResolucion();
+        assertEquals(expResult, result);
+    }
+
+    @Test
+    public void testSetSintonizador_TDT() {
+        System.out.println("Testeo de seter TDT");
+        int resolucion = 567;
+        Televisor LG = new Televisor();
+        System.out.println(LG.getResolucion());
+        LG.setResolucion(resolucion);
+        System.out.println(LG.getResolucion());
+        // TODO review the generated test code and remove the default call to fail.
+        assertEquals(LG.getResolucion(), resolucion);
+    }
+
+    @Test
+    public void testGetSintonizador_TDT() {
+        System.out.println("Testeo de geter TDT");
+        Televisor LG = new Televisor();
+        System.out.println(LG.isSintonizador_TDT());
+        boolean expResult = true;
+        LG.setSintonizador_TDT(true);
+        System.out.println(LG.isSintonizador_TDT());
+        boolean result = LG.isSintonizador_TDT();
         assertEquals(expResult, result);
     }
 
