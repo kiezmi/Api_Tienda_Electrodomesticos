@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81ec2243-c6e7-49c9-88e2-09a2ec50d3b0" name="Default Changelist" comment="Update Televisor_test v3">
+    <list default="true" id="81ec2243-c6e7-49c9-88e2-09a2ec50d3b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/control/MasterCtr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kiezmi/models/Lavadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kiezmi/models/Lavadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kiezmi/Test_Electrodomestico.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,58 +21,37 @@
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClass.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClass Coverage Results" MODIFIED="1538741282414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClassTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClassTelevisor Coverage Results" MODIFIED="1538740932212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetColor.ic" NAME="Test_Electrodomestico.testSetColor Coverage Results" MODIFIED="1538755531382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit2params.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit2params Coverage Results" MODIFIED="1538741287002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetPeso.ic" NAME="Test_Electrodomestico.testSetPeso Coverage Results" MODIFIED="1538743304086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetsintonizador_TDT.ic" NAME="Test_Electrodomestico.getsetsintonizador_TDT Coverage Results" MODIFIED="1538666920364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit2paramsLavadora.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit2paramsLavadora Coverage Results" MODIFIED="1538741265194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetPeso.ic" NAME="Test_Electrodomestico.testSetPeso Coverage Results" MODIFIED="1538755513893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetPrecioBase.ic" NAME="Test_Electrodomestico.testGetPrecioBase Coverage Results" MODIFIED="1538743131381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico.ic" NAME="Test_Electrodomestico Coverage Results" MODIFIED="1538655885937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetPeso.ic" NAME="Test_Electrodomestico.testGetPeso Coverage Results" MODIFIED="1538743309899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getMiConsumo.ic" NAME="Test_Electrodomestico.getMiConsumo Coverage Results" MODIFIED="1538655492667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetResolucion.ic" NAME="Test_Electrodomestico.getsetResolucion Coverage Results" MODIFIED="1538666603434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testsetCarga.ic" NAME="Test_Electrodomestico.testsetCarga Coverage Results" MODIFIED="1538740846378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit2paramsTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit2paramsTelevisor Coverage Results" MODIFIED="1538741221077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit5paramsTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit5paramsTelevisor Coverage Results" MODIFIED="1538741226890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.kiezmi.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit4params.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit4params Coverage Results" MODIFIED="1538741292928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit4params.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit4params Coverage Results" MODIFIED="1538754653322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClassLavadora.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClassLavadora Coverage Results" MODIFIED="1538741171232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetColor.ic" NAME="Test_Electrodomestico.testGetColor Coverage Results" MODIFIED="1538755384887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetSintonizador_TDT.ic" NAME="Test_Electrodomestico.testSetSintonizador_TDT Coverage Results" MODIFIED="1538740996376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetCarga.ic" NAME="Test_Electrodomestico.getsetCarga Coverage Results" MODIFIED="1538659313254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testComprobarConsumoEnergetico.ic" NAME="Test_Electrodomestico.testComprobarConsumoEnergetico Coverage Results" MODIFIED="1538754102773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetPrecioBase.ic" NAME="Test_Electrodomestico.testSetPrecioBase Coverage Results" MODIFIED="1538743108698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -74,7 +60,49 @@
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1538576843144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetConsumoElectronico.ic" NAME="Test_Electrodomestico.testSetConsumoElectronico Coverage Results" MODIFIED="1538754632526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetConsumoElectronico.ic" NAME="Test_Electrodomestico.testGetConsumoElectronico Coverage Results" MODIFIED="1538754464440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetSintonizador_TDT.ic" NAME="Test_Electrodomestico.testGetSintonizador_TDT Coverage Results" MODIFIED="1538741206799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClass.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClass Coverage Results" MODIFIED="1538741282414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClassTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClassTelevisor Coverage Results" MODIFIED="1538740932212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetMiConsumo.ic" NAME="Test_Electrodomestico.getsetMiConsumo Coverage Results" MODIFIED="1538745588162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetsintonizador_TDT.ic" NAME="Test_Electrodomestico.getsetsintonizador_TDT Coverage Results" MODIFIED="1538666920364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit2paramsLavadora.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit2paramsLavadora Coverage Results" MODIFIED="1538741265194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico.ic" NAME="Test_Electrodomestico Coverage Results" MODIFIED="1538755463613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getMiConsumo.ic" NAME="Test_Electrodomestico.getMiConsumo Coverage Results" MODIFIED="1538655492667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetResolucion.ic" NAME="Test_Electrodomestico.getsetResolucion Coverage Results" MODIFIED="1538666603434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetColor.ic" NAME="Test_Electrodomestico.getsetColor Coverage Results" MODIFIED="1538745581116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit2paramsTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit2paramsTelevisor Coverage Results" MODIFIED="1538741221077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit5paramsTelevisor.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit5paramsTelevisor Coverage Results" MODIFIED="1538741226890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.kiezmi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getsetCarga.ic" NAME="Test_Electrodomestico.getsetCarga Coverage Results" MODIFIED="1538659313254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_itObjectisInstanceOfClasswhit5paramsLavadora.ic" NAME="Test_Electrodomestico.itObjectisInstanceOfClasswhit5paramsLavadora Coverage Results" MODIFIED="1538741259801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -107,25 +135,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="java" value="1871" />
-          <entry key="txt" value="133" />
+          <entry key="java" value="4089" />
+          <entry key="txt" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1871" />
-          <entry key="PLAIN_TEXT" value="172" />
+          <entry key="JAVA" value="4089" />
+          <entry key="PLAIN_TEXT" value="218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -149,8 +177,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="335">
+              <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,11 +189,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="262">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,12 +201,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -187,8 +210,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-263">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/control/MasterCtr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#800#808#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +260,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>movil</find>
+      <find>miColor</find>
     </findStrings>
+    <replaceStrings>
+      <replace>colores</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Rebase.Settings">
     <option name="PRESERVE_MERGES" value="true" />
@@ -241,8 +299,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/househol_AppModelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/models/ElectrodomesticoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/control/MasterCtr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" />
       </list>
     </option>
@@ -273,17 +332,96 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538743405588" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538755595344" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/kiezmi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestingUnitario" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -311,7 +449,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test_Electrodomestico.testGetPeso">
+  <component name="RunManager" selected="JUnit.Test_Electrodomestico.testSetColor">
+    <configuration name="Test_Electrodomestico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejecricio5Vitaminado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kiezmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kiezmi" />
+      <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_Electrodomestico.itObjectisInstanceOfClasswhit4params" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ejecricio5Vitaminado" />
       <extension name="coverage">
@@ -328,7 +480,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Electrodomestico.testGetPeso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Electrodomestico.testGetColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ejecricio5Vitaminado" />
       <extension name="coverage">
         <pattern>
@@ -338,13 +490,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kiezmi" />
       <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
-      <option name="METHOD_NAME" value="testGetPeso" />
+      <option name="METHOD_NAME" value="testGetColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Electrodomestico.testGetPrecioBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_Electrodomestico.testSetColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ejecricio5Vitaminado" />
       <extension name="coverage">
         <pattern>
@@ -354,7 +506,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.kiezmi" />
       <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
-      <option name="METHOD_NAME" value="testGetPrecioBase" />
+      <option name="METHOD_NAME" value="testSetColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,35 +528,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Electrodomestico.testSetPrecioBase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ejecricio5Vitaminado" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kiezmi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kiezmi" />
-      <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
-      <option name="METHOD_NAME" value="testSetPrecioBase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.Test_Electrodomestico" />
       <item itemvalue="JUnit.Test_Electrodomestico.itObjectisInstanceOfClasswhit4params" />
-      <item itemvalue="JUnit.Test_Electrodomestico.testSetPrecioBase" />
-      <item itemvalue="JUnit.Test_Electrodomestico.testGetPrecioBase" />
+      <item itemvalue="JUnit.Test_Electrodomestico.testGetColor" />
+      <item itemvalue="JUnit.Test_Electrodomestico.testSetColor" />
       <item itemvalue="JUnit.Test_Electrodomestico.testSetPeso" />
-      <item itemvalue="JUnit.Test_Electrodomestico.testGetPeso" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test_Electrodomestico.testGetPeso" />
+        <item itemvalue="JUnit.Test_Electrodomestico.testSetColor" />
         <item itemvalue="JUnit.Test_Electrodomestico.testSetPeso" />
-        <item itemvalue="JUnit.Test_Electrodomestico.testGetPrecioBase" />
-        <item itemvalue="JUnit.Test_Electrodomestico.testSetPrecioBase" />
+        <item itemvalue="JUnit.Test_Electrodomestico" />
+        <item itemvalue="JUnit.Test_Electrodomestico.testGetColor" />
         <item itemvalue="JUnit.Test_Electrodomestico.itObjectisInstanceOfClasswhit4params" />
       </list>
     </recent_temporary>
@@ -425,7 +561,7 @@
       <workItem from="1538666017403" duration="4335000" />
       <workItem from="1538724188074" duration="1439000" />
       <workItem from="1538725875091" duration="58000" />
-      <workItem from="1538739823380" duration="2513000" />
+      <workItem from="1538739823380" duration="15377000" />
     </task>
     <task id="LOCAL-00001" summary="Update repository">
       <created>1538665309737</created>
@@ -462,43 +598,50 @@
       <option name="project" value="LOCAL" />
       <updated>1538740126122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor clase lavadora y electrodomestico">
+      <created>1538743397452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538743397452</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClasswhit5paramsLavadora - 2018.10.05 at 14h 07m 41s.xml">
-      <configuration name="Test_Electrodomestico.itObjectisInstanceOfClasswhit5paramsLavadora" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico_testSetConsumoElectronico - 2018.10.05 at 17h 50m 34s.xml">
+      <configuration name="Test_Electrodomestico.testSetConsumoElectronico" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClasswhit2paramsLavadora - 2018.10.05 at 14h 07m 46s.xml">
-      <configuration name="Test_Electrodomestico.itObjectisInstanceOfClasswhit2paramsLavadora" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClass - 2018.10.05 at 14h 08m 04s.xml">
-      <configuration name="Test_Electrodomestico.itObjectisInstanceOfClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClasswhit2params - 2018.10.05 at 14h 08m 09s.xml">
-      <configuration name="Test_Electrodomestico.itObjectisInstanceOfClasswhit2params" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClasswhit4params - 2018.10.05 at 14h 08m 14s.xml">
+    <history-entry file="Test_Electrodomestico_itObjectisInstanceOfClasswhit4params - 2018.10.05 at 17h 50m 55s.xml">
       <configuration name="Test_Electrodomestico.itObjectisInstanceOfClasswhit4params" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_testSetPrecioBase - 2018.10.05 at 14h 38m 22s.xml">
-      <configuration name="Test_Electrodomestico.testSetPrecioBase" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico - 2018.10.05 at 18h 00m 44s.xml">
+      <configuration name="Test_Electrodomestico" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_testSetPrecioBase - 2018.10.05 at 14h 38m 30s.xml">
-      <configuration name="Test_Electrodomestico.testSetPrecioBase" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico_testGetColor - 2018.10.05 at 18h 03m 06s.xml">
+      <configuration name="Test_Electrodomestico.testGetColor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_testGetPrecioBase - 2018.10.05 at 14h 38m 34s.xml">
-      <configuration name="Test_Electrodomestico.testGetPrecioBase" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico_testSetColor - 2018.10.05 at 18h 03m 20s.xml">
+      <configuration name="Test_Electrodomestico.testSetColor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_testGetPrecioBase - 2018.10.05 at 14h 38m 43s.xml">
-      <configuration name="Test_Electrodomestico.testGetPrecioBase" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico_testSetColor - 2018.10.05 at 18h 03m 55s.xml">
+      <configuration name="Test_Electrodomestico.testSetColor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_Electrodomestico_testGetPrecioBase - 2018.10.05 at 14h 38m 53s.xml">
-      <configuration name="Test_Electrodomestico.testGetPrecioBase" configurationId="JUnit" />
+    <history-entry file="Test_Electrodomestico_testSetColor - 2018.10.05 at 18h 04m 11s.xml">
+      <configuration name="Test_Electrodomestico.testSetColor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico - 2018.10.05 at 18h 04m 25s.xml">
+      <configuration name="Test_Electrodomestico" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico_testSetPeso - 2018.10.05 at 18h 05m 15s.xml">
+      <configuration name="Test_Electrodomestico.testSetPeso" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico_testSetColor - 2018.10.05 at 18h 05m 33s.xml">
+      <configuration name="Test_Electrodomestico.testSetColor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24005000" />
+    <option name="totallyTimeSpent" value="36869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-1" width="1920" height="1080" extended-state="6" />
@@ -517,7 +660,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.29633507" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3434555" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32879582" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -527,7 +670,7 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.26894343" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.26894343" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
@@ -540,7 +683,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5013298" side_tool="true" weight="0.1814301" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49867022" weight="0.18356457" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49867022" visible="true" weight="0.18356457" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010672" side_tool="true" weight="0.21256545" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -548,7 +691,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32901135" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.29633507" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3434555" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32879582" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -558,7 +701,7 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.26894343" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.26894343" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
@@ -607,54 +750,79 @@
     <MESSAGE value="Update Televisor v2" />
     <MESSAGE value="Update Televisor v3" />
     <MESSAGE value="Update Televisor_test v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Televisor_test v3" />
+    <MESSAGE value="Refactor clase lavadora y electrodomestico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor clase lavadora y electrodomestico" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kiezmi/models/ElectrodomesticoTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/prueba/miPrueba1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/prueba/miPrueba1.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="262">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-263">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/control/MasterCtr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#800#808#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="335">
+          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
