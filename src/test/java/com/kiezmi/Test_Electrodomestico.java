@@ -39,32 +39,52 @@ public class Test_Electrodomestico {
     }
 
     @Test
-    public void getsetPrecioBase() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        final Electrodomestico movil = new Electrodomestico();
-
-        //when
-        movil.setPrecioBase(200);
-
-        //then
-        final Field field = movil.getClass().getDeclaredField("precioBase");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(movil), 200.0);
+    public void testSetPrecioBase() {
+        System.out.println("Testeo de seter Precio Base");
+        double cargado = 567;
+        Electrodomestico movil = new Electrodomestico();
+        System.out.println(movil.getPrecioBase());
+        movil.setPrecioBase(cargado);
+        System.out.println(movil.getPrecioBase());
+        // TODO review the generated test code and remove the default call to fail.
+        assertEquals(movil.getPrecioBase(), cargado);
     }
 
     @Test
-    public void getsetPeso() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        final Electrodomestico movil = new Electrodomestico();
-
-        //when
-        movil.setPeso(5);
-        //then
-        final Field field = movil.getClass().getDeclaredField("peso");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(movil), 5.0);
+    public void testGetPrecioBase() {
+        System.out.println("Testeo de geter Precio Base");
+        Electrodomestico movil = new Electrodomestico();
+        System.out.println(movil.getPrecioBase());
+        double expResult = 800;
+        movil.setPrecioBase(800);
+        System.out.println(movil.getPrecioBase());
+        double result = movil.getPrecioBase();
+        assertEquals(expResult, result);
     }
 
+    @Test
+    public void testSetPeso() {
+        System.out.println("Testeo de seter Peso");
+        double cargado = 567;
+        Electrodomestico movil = new Electrodomestico();
+        System.out.println(movil.getPeso());
+        movil.setPeso(cargado);
+        System.out.println(movil.getPeso());
+        // TODO review the generated test code and remove the default call to fail.
+        assertEquals(movil.getPeso(), cargado);
+    }
+
+    @Test
+    public void testGetPeso() {
+        System.out.println("Testeo de geter Peso");
+        Electrodomestico movil = new Electrodomestico();
+        System.out.println(movil.getPeso());
+        double expResult = 800;
+        movil.setPeso(800);
+        System.out.println(movil.getPeso());
+        double result = movil.getPeso();
+        assertEquals(expResult, result);
+    }
     @Test
     public void getsetColor() throws NoSuchFieldException, IllegalAccessException {
         //given
@@ -114,18 +134,29 @@ public class Test_Electrodomestico {
         assertThat(subClass, instanceOf(Lavadora.class));
     }
 
+
     @Test
-    public void getsetCarga() throws NoSuchFieldException, IllegalAccessException {
-        //given
-        final Lavadora Whirpool = new Lavadora();
+    public void testSetCarga() {
+        System.out.println("Testeo de seter Carga");
+        int cargado = 567;
+        Lavadora Whirpool = new Lavadora();
+        System.out.println(Whirpool.getCarga());
+        Whirpool.setCarga(cargado);
+        System.out.println(Whirpool.getCarga());
+        // TODO review the generated test code and remove the default call to fail.
+        assertEquals(Whirpool.getCarga(), cargado);
+    }
 
-        //when
-        Whirpool.setCarga(5);
-
-        //then
-        final Field field = Whirpool.getClass().getDeclaredField("carga");
-        field.setAccessible(true);
-        assertEquals("Fields didn't match", field.get(Whirpool), 5);
+    @Test
+    public void testGetCarga() {
+        System.out.println("Testeo de geter Carga");
+        Lavadora Whirpool = new Lavadora();
+        System.out.println(Whirpool.getCarga());
+        int expResult = 800;
+        Whirpool.setCarga(800);
+        System.out.println(Whirpool.getCarga());
+        int result = Whirpool.getCarga();
+        assertEquals(expResult, result);
     }
 
 
@@ -150,7 +181,7 @@ public class Test_Electrodomestico {
 
     @Test
     public void testSetResolucion() {
-        System.out.println("Testeo de seter");
+        System.out.println("Testeo de seter Resolucion");
         int resolucion = 567;
         Televisor LG = new Televisor();
         System.out.println(LG.getResolucion());
@@ -162,7 +193,7 @@ public class Test_Electrodomestico {
 
     @Test
     public void testGetResolucion() {
-        System.out.println("Testeo de geter");
+        System.out.println("Testeo de geter Resolucion");
         Televisor LG = new Televisor();
         System.out.println(LG.getResolucion());
         int expResult = 800;
