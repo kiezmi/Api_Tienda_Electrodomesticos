@@ -1,7 +1,11 @@
 package com.kiezmi.models;
 
+<<<<<<< HEAD
 import com.kiezmi.controllers.MasterCtr;
 
+=======
+import com.kiezmi.control.MasterCtr;
+>>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
 
 public class Electrodomestico {
 
@@ -26,10 +30,17 @@ public class Electrodomestico {
     }
 
     public Electrodomestico(double precioBase, double peso, String color, char miconsumo) {
+<<<<<<< HEAD
         this.precioBase = precioBase;
         this.peso = peso;
         this.miConsumo = MasterCtr.comprobarConsumoEnergetico(miconsumo);
         this.color = MasterCtr.comprobarColor(color);
+=======
+        this.precioBase=precioBase;
+        this.peso=peso;
+        this.miConsumo = MasterCtr.comprobarConsumoEnergetico(miconsumo);
+        this.color=MasterCtr.comprobarColor(color);
+>>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
 
     }
 
@@ -107,6 +118,7 @@ public class Electrodomestico {
         return precioBase;
     }
 
+<<<<<<< HEAD
 
     //Enums
     public enum Colores {
@@ -114,4 +126,6 @@ public class Electrodomestico {
     }
 
     public enum ConsumoElectronico {A, B, C, D, E, F}
+=======
+>>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
 }
