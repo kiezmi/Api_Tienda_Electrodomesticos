@@ -28,6 +28,19 @@ public class Lavadora extends Electrodomestico {
         this.color = MasterCtr.comprobarColor(color);
     }
 
+    @Override
+    public double precioFinal(Electrodomestico electrodomestico) {
+
+        double preciofinal = super.precioFinal(electrodomestico);
+
+        if (carga > 30) {
+            preciofinal = preciofinal + 50;
+        } else {
+            preciofinal = preciofinal;
+        }
+        return preciofinal;
+    }
+
     //Geters & Seters
     public int getCarga() {
         return carga;

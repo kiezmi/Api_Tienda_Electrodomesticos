@@ -68,43 +68,42 @@ public class Electrodomestico {
 
     //Metodo Precio Final
     public double precioFinal(Electrodomestico electrodomestico) {
+        double precioFinal = 0.0;
 
         switch (electrodomestico.getMiConsumo()) {
             case A:
-                precioBase += 100;
+                precioFinal = precioBase + 100;
                 break;
             case B:
-                precioBase += 85;
+                precioFinal = precioBase + 85;
                 break;
             case C:
-                precioBase += 60;
+                precioFinal = precioBase + 60;
                 break;
             case D:
-                precioBase += 50;
+                precioFinal = precioBase + 50;
                 break;
             case E:
-                precioBase += 30;
+                precioFinal = precioBase + 30;
                 break;
             case F:
-                precioBase += 10;
+                precioFinal = precioBase + 10;
                 break;
-
         }
 
         if (peso < 19) {
-            precioBase += 10;
+            precioFinal = precioBase + 10;
         }
         if (peso > 19 && peso < 49) {
-            precioBase += 50;
+            precioFinal = precioBase + 50;
         }
         if (peso > 49 && peso < 79) {
-            precioBase += 80;
+            precioFinal = precioBase + 80;
         }
         if (peso > 80) {
-            precioBase += 100;
+            precioFinal = precioBase + 100;
         }
-
-        return precioBase;
+        return precioFinal;
     }
 
 
