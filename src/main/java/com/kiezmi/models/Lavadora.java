@@ -1,11 +1,8 @@
 package com.kiezmi.models;
 
-<<<<<<< HEAD
+
 import com.kiezmi.controllers.MasterCtr;
-=======
-import com.kiezmi.control.MasterCtr;
-import com.kiezmi.models.Electrodomestico;
->>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
+
 
 public class Lavadora extends Electrodomestico {
 
@@ -20,10 +17,7 @@ public class Lavadora extends Electrodomestico {
 
     public Lavadora(int precioBase, int carga) {
         super();
-<<<<<<< HEAD
         this.precioBase = precioBase;
-=======
->>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
         this.carga = carga;
     }
 

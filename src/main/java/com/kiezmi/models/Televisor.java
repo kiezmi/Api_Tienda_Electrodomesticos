@@ -1,10 +1,6 @@
 package com.kiezmi.models;
 
-<<<<<<< HEAD
 import com.kiezmi.controllers.MasterCtr;
-=======
-import com.kiezmi.control.MasterCtr;
->>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
 
 public class Televisor extends Electrodomestico {
 
@@ -21,7 +17,6 @@ public class Televisor extends Electrodomestico {
 
     public Televisor(double precioBase, double peso) {
         super();
-<<<<<<< HEAD
 
     }
 
@@ -52,20 +47,6 @@ public class Televisor extends Electrodomestico {
         }
 
         return preciofinal;
-=======
-        this.resolucion = resolucion;
-        this.sintonizador_TDT = sintonizador_TDT;
-
-    }
-
-    public Televisor(double precioBase, double peso, String color, char miconsumo, int pulgadas, boolean sintonizador_TDT) {
-        this.precioBase=precioBase;
-        this.peso=peso;
-        this.miConsumo = MasterCtr.comprobarConsumoEnergetico(miconsumo);
-        this.color=MasterCtr.comprobarColor(color);
-        this.resolucion = resolucion;
-        this.sintonizador_TDT = sintonizador_TDT;
->>>>>>> cf5b76bad5c7b290434ef22e5a7af3ae0bcf04cf
     }
 
     //Geters & Seters
