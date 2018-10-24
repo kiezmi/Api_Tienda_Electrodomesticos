@@ -15,10 +15,10 @@ public class Lavadora extends Electrodomestico {
         this.carga = 5;
     }
 
-    public Lavadora(int precioBase, int carga) {
+    public Lavadora(int precioBase, int peso) {
         super();
         this.precioBase = precioBase;
-        this.carga = carga;
+        this.peso = peso;
     }
 
     public Lavadora(double precioBase, double peso, String color, char miconsumo, int carga) {
@@ -26,6 +26,7 @@ public class Lavadora extends Electrodomestico {
         this.peso = peso;
         this.miConsumo = MasterCtr.comprobarConsumoEnergetico(miconsumo);
         this.color = MasterCtr.comprobarColor(color);
+        this.carga = carga;
     }
 
     @Override

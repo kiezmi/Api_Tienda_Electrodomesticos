@@ -8,9 +8,9 @@ import com.kiezmi.models.Televisor;
 import java.util.ArrayList;
 
 public class MasterCtr {
-    Electrodomestico portatil = new Electrodomestico();
-    Lavadora Whirllpoll = new Lavadora();
-    Televisor LG = new Televisor();
+    //Electrodomestico portatil = new Electrodomestico();
+    //Lavadora Whirllpoll = new Lavadora();
+    //git pushTelevisor LG = new Televisor();
 
     public static Electrodomestico.ConsumoElectronico comprobarConsumoEnergetico(char letra) {
         String consumos = "ABCDEF";
