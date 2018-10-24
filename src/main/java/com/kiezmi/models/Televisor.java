@@ -20,13 +20,33 @@ public class Televisor extends Electrodomestico {
 
     }
 
-    public Televisor(double precioBase, double peso, String color, char miconsumo, int pulgadas, boolean sintonizador_TDT) {
+    public Televisor(double precioBase, double peso, String color, char miconsumo, int resolucion, boolean sintonizador_TDT) {
         this.precioBase = precioBase;
         this.peso = peso;
         this.miConsumo = MasterCtr.comprobarConsumoEnergetico(miconsumo);
         this.color = MasterCtr.comprobarColor(color);
         this.resolucion = resolucion;
         this.sintonizador_TDT = sintonizador_TDT;
+    }
+
+    @Override
+    public double precioFinal(Electrodomestico electrodomestico) {
+
+        double preciofinal = super.precioFinal(electrodomestico);
+
+        if (resolucion > 40) {
+            preciofinal = (preciofinal * 30) / 100;
+        } else {
+            preciofinal = preciofinal;
+        }
+
+        if (sintonizador_TDT == true) {
+            preciofinal = preciofinal + 50;
+        } else {
+            preciofinal = preciofinal;
+        }
+
+        return preciofinal;
     }
 
     //Geters & Seters

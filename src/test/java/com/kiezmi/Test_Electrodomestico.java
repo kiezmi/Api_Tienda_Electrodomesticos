@@ -1,14 +1,15 @@
 package com.kiezmi;
 
 
-import com.kiezmi.models.Electrodomestico;
-import com.kiezmi.models.Lavadora;
-import com.kiezmi.models.Televisor;
-import org.junit.Test;
-
 import static junit.framework.TestCase.assertEquals;
 import static org.hamcrest.core.IsInstanceOf.instanceOf;
 import static org.junit.Assert.assertThat;
+
+import com.kiezmi.models.Electrodomestico;
+import com.kiezmi.models.Lavadora;
+import com.kiezmi.models.Televisor;
+
+import org.junit.Test;
 
 
 /**
