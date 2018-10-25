@@ -68,6 +68,7 @@ public class Electrodomestico {
 
     //Metodo Precio Final
     public double precioFinal() {
+
         double precioFinal = 0.0;
 
         switch (getMiConsumo()) {

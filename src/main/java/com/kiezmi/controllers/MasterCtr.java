@@ -49,15 +49,29 @@ public class MasterCtr {
 
         return electrodomesticos;
     }
-    public static Electrodomestico calcularPrecios(Electrodomestico electrodomesticos){
-    double precios;
 
-        for(int i = 0;i<10;i++){
+    public static double[] calcularPrecios(Electrodomestico[] electrodomesticos) {
+        double electrodomesticosPrecio = 0;
+        double televisorPrecio = 0;
+        double lavadoraPrecio = 0;
 
+        //  private static ArrayList<Electrodomestico> electrodomesticos ArrayList<>
+        double[] precios = new double[3];
 
-
+        for (int i = 0; i < 10; i++) {
+            if (electrodomesticos[i] instanceof Televisor) {
+                televisorPrecio += electrodomesticos[i].precioFinal();
+            } else if (electrodomesticos[i] instanceof Lavadora) {
+                lavadoraPrecio += electrodomesticos[i].precioFinal();
+            } else if (!(electrodomesticos[i] instanceof Televisor) && !(electrodomesticos[i] instanceof Lavadora)) {
+                electrodomesticosPrecio += electrodomesticos[i].precioFinal();
+            }
         }
+
+        precios[0] = electrodomesticosPrecio;
+        precios[1] = televisorPrecio;
+        precios[2] = lavadoraPrecio;
+
         return precios;
     }
-
 }
