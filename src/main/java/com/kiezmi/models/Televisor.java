@@ -30,20 +30,16 @@ public class Televisor extends Electrodomestico {
     }
 
     @Override
-    public double precioFinal(Electrodomestico electrodomestico) {
+    public double precioFinal() {
 
-        double preciofinal = super.precioFinal(electrodomestico);
+        double preciofinal = super.precioFinal();
 
-        if (resolucion > 40) {
+        if (getResolucion() > 40) {
             preciofinal = (preciofinal * 30) / 100;
-        } else {
-            preciofinal = preciofinal;
         }
 
-        if (sintonizador_TDT == true) {
+        if (isSintonizador_TDT()) {
             preciofinal = preciofinal + 50;
-        } else {
-            preciofinal = preciofinal;
         }
 
         return preciofinal;

@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04514f55-20f0-445c-aaa4-1e6ae1007802" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testSetColor.ic" NAME="Test_Electrodomestico.testSetColor Coverage Results" MODIFIED="1538755531382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
@@ -13,7 +30,7 @@
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Ejecutable.ic" NAME="Ejecutable Coverage Results" MODIFIED="1540378805891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testPrecioFinal.ic" NAME="Test_Electrodomestico.testPrecioFinal Coverage Results" MODIFIED="1539103751306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testPrecioFinal.ic" NAME="Test_Electrodomestico.testPrecioFinal Coverage Results" MODIFIED="1540395021410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testGetPrecioBase.ic" NAME="Test_Electrodomestico.testGetPrecioBase Coverage Results" MODIFIED="1538743131381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -73,7 +90,7 @@
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_testComprobarColor.ic" NAME="Test_Electrodomestico.testComprobarColor Coverage Results" MODIFIED="1538986716038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico.ic" NAME="Test_Electrodomestico Coverage Results" MODIFIED="1540378999565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico.ic" NAME="Test_Electrodomestico Coverage Results" MODIFIED="1540396623994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/Ejecricio5Vitaminado$Test_Electrodomestico_getMiConsumo.ic" NAME="Test_Electrodomestico.getMiConsumo Coverage Results" MODIFIED="1538655492667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -98,19 +115,288 @@
       <FILTER>com.kiezmi.*</FILTER>
     </SUITE>
   </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="160" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1101235031">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="16" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="16" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="49" />
+          <entry key="java" value="5833" />
+          <entry key="txt" value="196" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5833" />
+          <entry key="PLAIN_TEXT" value="245" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.revision" value="1" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.rename" value="1" />
+          <entry key="git.checkout.as.new.branch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Ejecricio5Vitaminado" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+              <folding>
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1354#1355#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/views/Ejecutable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Electrodomestico portatil \= new Electrodomestico\(\)\;\n    Lavadora Whirllpoll \= new Lavadora\(\)\;\n    Televisor LG \= new Televisor\(\)\;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/househol_Appliance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/HouseholAppliance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/househol_AppModelTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/models/ElectrodomesticoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/control/MasterCtr.java" />
+        <option value="$PROJECT_DIR$/java/lang/annotations.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/views/Ejecutable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Ejecricio5Vitaminado" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Ejecricio5Vitaminado" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="74" />
     <option name="width" value="822" />
     <option name="height" value="665" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ejecricio5Vitaminado" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ejecricio5Vitaminado" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="kiezmi" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540392356209" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540464722537" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test_Electrodomestico">
     <configuration name="Ejecutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kiezmi.views.Ejecutable" />
       <module name="Ejecricio5Vitaminado" />
@@ -124,10 +410,315 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_Electrodomestico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejecricio5Vitaminado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kiezmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kiezmi" />
+      <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Electrodomestico.testPrecioFinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ejecricio5Vitaminado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kiezmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kiezmi" />
+      <option name="MAIN_CLASS_NAME" value="com.kiezmi.Test_Electrodomestico" />
+      <option name="METHOD_NAME" value="testPrecioFinal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Ejecutable" />
+      <item itemvalue="JUnit.Test_Electrodomestico.testPrecioFinal" />
+      <item itemvalue="JUnit.Test_Electrodomestico" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_Electrodomestico" />
+        <item itemvalue="JUnit.Test_Electrodomestico.testPrecioFinal" />
         <item itemvalue="Application.Ejecutable" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04514f55-20f0-445c-aaa4-1e6ae1007802" name="Default Changelist" comment="" />
+      <created>1538576046094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538576046094</updated>
+      <workItem from="1538576049550" duration="6593000" />
+      <workItem from="1538584420579" duration="121000" />
+      <workItem from="1538654408181" duration="8946000" />
+      <workItem from="1538666017403" duration="4335000" />
+      <workItem from="1538724188074" duration="1439000" />
+      <workItem from="1538725875091" duration="58000" />
+      <workItem from="1538739823380" duration="15779000" />
+      <workItem from="1538986295947" duration="681000" />
+      <workItem from="1539010787388" duration="2658000" />
+      <workItem from="1539103038536" duration="1680000" />
+      <workItem from="1539591912970" duration="31000" />
+      <workItem from="1539597116635" duration="639000" />
+      <workItem from="1540378768629" duration="724000" />
+      <workItem from="1540380112113" duration="11244000" />
+      <workItem from="1540463322633" duration="55000" />
+      <workItem from="1540463463928" duration="1502000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update repository">
+      <created>1538665309737</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538665309738</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update Televisor">
+      <created>1538666422401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538666422401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update Televisor v2">
+      <created>1538669917015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538669917015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update Televisor v3">
+      <created>1538670356398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538670356398</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update Televisor_test v3">
+      <created>1538740126122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538740126122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactor clase lavadora y electrodomestico">
+      <created>1538743397452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538743397452</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update MVC naming">
+      <created>1540380508493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1540380508494</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test_Electrodomestico_testPrecioFinal - 2018.10.24 at 17h 30m 24s.xml">
+      <configuration name="Test_Electrodomestico.testPrecioFinal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico_testPrecioFinal - 2018.10.24 at 17h 31m 41s.xml">
+      <configuration name="Test_Electrodomestico.testPrecioFinal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico_testPrecioFinal - 2018.10.24 at 17h 32m 02s.xml">
+      <configuration name="Test_Electrodomestico.testPrecioFinal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_Electrodomestico - 2018.10.24 at 17h 57m 05s.xml">
+      <configuration name="Test_Electrodomestico" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56485000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5013298" side_tool="true" weight="0.1814301" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49867022" visible="true" weight="0.20757575" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010672" side_tool="true" weight="0.21256545" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49893278" weight="0.21103896" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32954547" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.34253246" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39935064" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32792208" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.375" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19318181" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5013298" side_tool="true" weight="0.1814301" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49867022" visible="true" weight="0.20151515" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010672" side_tool="true" weight="0.21256545" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49893278" weight="0.21103896" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32954547" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.34253246" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39935064" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32792208" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.28560606" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.19318181" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kiezmi/models/ElectrodomesticoTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/prueba/miPrueba1.java" />
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/kiezmi/Test_Electrodomestico.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/lang/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="33" column="61" lean-forward="true" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kiezmi/Test_Electrodomestico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Televisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Lavadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="107" column="23" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="23" />
+          <folding>
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/views/Ejecutable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

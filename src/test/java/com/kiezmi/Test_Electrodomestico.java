@@ -250,7 +250,7 @@ public class Test_Electrodomestico {
     public void testPrecioFinal(){
         System.out.println("Testeo del precio final de Electrodomestico");
         Electrodomestico PC = new Electrodomestico();
-        assertEquals(PC.precioFinal(PC),295.0);
+        assertEquals(PC.precioFinal(),295.0);
     }
 }
 

@@ -8,9 +8,6 @@ import com.kiezmi.models.Televisor;
 import java.util.ArrayList;
 
 public class MasterCtr {
-    //Electrodomestico portatil = new Electrodomestico();
-    //Lavadora Whirllpoll = new Lavadora();
-    //git pushTelevisor LG = new Televisor();
 
     public static Electrodomestico.ConsumoElectronico comprobarConsumoEnergetico(char letra) {
         String consumos = "ABCDEF";
@@ -35,9 +32,23 @@ public class MasterCtr {
         return Electrodomestico.Colores.valueOf(color);
     }
 
+    public static Electrodomestico[] crearArrayElectrodomesticos(){
 
-    public static double precioFinal(int a, int b, int c) {
-        return a + b + c;
+        Electrodomestico[] electrodomesticos= new Electrodomestico[10];
+
+        electrodomesticos[0] = new Electrodomestico();
+        electrodomesticos[1] = new Electrodomestico(100, 20, "rojo",'A');
+        electrodomesticos[2] = new Electrodomestico(100, 20, "rojo",'A');
+        electrodomesticos[3] = new Electrodomestico(100, 20, "rojo",'A');
+        electrodomesticos[4] = new Electrodomestico(100, 20, "rojo",'A');
+        electrodomesticos[5] = new Lavadora(100, 20, "rojo",'A',45);
+        electrodomesticos[6] = new Lavadora(100, 20, "rojo",'A',35);
+        electrodomesticos[7] = new Electrodomestico(100, 20, "rojo",'A');
+        electrodomesticos[8] = new Televisor(50, 5, "metal",'D',30,false);
+        electrodomesticos[9] = new Televisor(50, 5, "metal",'D',30,false);
+
+        return  electrodomesticos;
     }
+
 
 }
