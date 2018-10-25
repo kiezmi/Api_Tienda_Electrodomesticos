@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04514f55-20f0-445c-aaa4-1e6ae1007802" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kiezmi/models/Electrodomestico.java" afterDir="false" />
-    </list>
+    <list default="true" id="04514f55-20f0-445c-aaa4-1e6ae1007802" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -230,8 +226,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+            <state relative-caret-position="348">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -378,7 +374,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540469330587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540473736203" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
@@ -475,7 +471,7 @@
       <workItem from="1540378768629" duration="724000" />
       <workItem from="1540380112113" duration="11244000" />
       <workItem from="1540463322633" duration="55000" />
-      <workItem from="1540463463928" duration="6294000" />
+      <workItem from="1540463463928" duration="6628000" />
     </task>
     <task id="LOCAL-00001" summary="Update repository">
       <created>1538665309737</created>
@@ -543,18 +539,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61277000" />
+    <option name="totallyTimeSpent" value="61611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5013298" side_tool="true" weight="0.1814301" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49867022" weight="0.1719697" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49867022" visible="true" weight="0.1719697" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5010672" side_tool="true" weight="0.21256545" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
@@ -709,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kiezmi/controllers/MasterCtr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        <state relative-caret-position="348">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
         </state>
       </provider>
     </entry>
