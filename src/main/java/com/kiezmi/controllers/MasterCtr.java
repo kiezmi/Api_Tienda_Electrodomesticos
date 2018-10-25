@@ -39,13 +39,13 @@ public class MasterCtr {
         electrodomesticos[0] = new Electrodomestico();
         electrodomesticos[1] = new Electrodomestico(100, 20, "ROJO", 'A');
         electrodomesticos[2] = new Electrodomestico(200, 30, "VERDE", 'B');
-        electrodomesticos[3] = new Lavadora(100, 20, "ROJO", 'F', 35);
+        electrodomesticos[3] = new Lavadora(300, 20, "ROJO", 'F', 35);
         electrodomesticos[4] = new Electrodomestico(400, 50, "METAL", 'D');
-        electrodomesticos[5] = new Lavadora(100, 20, "AZUL", 'E', 45);
+        electrodomesticos[5] = new Lavadora(200, 20, "AZUL", 'E', 45);
         electrodomesticos[6] = new Electrodomestico(300, 40, "BLANCO", 'C');
-        electrodomesticos[7] = new Televisor(50, 5, "METAL", 'A', 30, false);
+        electrodomesticos[7] = new Televisor(400, 5, "METAL", 'A', 30, false);
         electrodomesticos[8] = new Electrodomestico(100, 20, "ROJO", 'G');
-        electrodomesticos[9] = new Televisor(50, 5, "VERDE", 'C', 30, true);
+        electrodomesticos[9] = new Televisor(350, 5, "VERDE", 'C', 30, true);
 
         return electrodomesticos;
     }
@@ -61,10 +61,13 @@ public class MasterCtr {
         for (int i = 0; i < 10; i++) {
             if (electrodomesticos[i] instanceof Televisor) {
                 televisorPrecio += electrodomesticos[i].precioFinal();
+                //System.out.println("Televisor "+televisorPrecio);
             } else if (electrodomesticos[i] instanceof Lavadora) {
                 lavadoraPrecio += electrodomesticos[i].precioFinal();
+                //System.out.println("Lavadora "+lavadoraPrecio);
             } else if (!(electrodomesticos[i] instanceof Televisor) && !(electrodomesticos[i] instanceof Lavadora)) {
                 electrodomesticosPrecio += electrodomesticos[i].precioFinal();
+                //System.out.println("electrodomestico "+electrodomesticosPrecio);
             }
         }
 
