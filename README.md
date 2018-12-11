@@ -1,8 +1,5 @@
-#APP Tienda de electrodomesticos
+***APP Tienda de electrodomesticos***
 
-Crearemos una superclase llamada Electrodomestico con las siguientes características:
-
-##Electrodomestico
 Crearemos una superclase llamada ***Electrodomestico*** con las siguientes características:
 * Sus atributos son ***precio base, color, consumo energético*** (letras entre A y F) y ***peso***. Indica que se podran heredar.
 * Por defecto, el color sera blanco, el consumo energético sera B, el precio Base es de 200€ y el peso de 5 kg.
@@ -13,9 +10,9 @@ Crearemos una superclase llamada ***Electrodomestico*** con las siguientes carac
   * Un constructor con todos los atributos.
 * Los métodos que se implemntarán serán
   * Los metodos getter/setter de todos los atributos.
-  * ***comprobarConsumoEnergetico(char letra)***: comprueba que la letra es correcta, sino es correcta usará la letra por defcto. Se inocará al crear el objeto y no será visible.
-  * ***comprobarColor(String color)***: comprueba que el color es correcto sino lo es usa el color por defecto. Se invocará al crar el objeto y no será visible.
-  * ***precioFinal()*** Según el consumo energetico, aumentará su prcio y según su tamaño también. Esta son la lista de precios.
+  * El metodo ***comprobarConsumoEnergetico(char letra)***: comprueba que la letra es correcta, sino es correcta usará la letra por defcto. Se invocará al crear el objeto y no será visible.
+  * El metodo ***comprobarColor(String color)***: comprueba que el color es correcto sino lo es usa el color por defecto. Se invocará al crar el objeto y no será visible.
+  * El metodo ***precioFinal()*** Según el consumo energetico, aumentará su precio y según su tamaño también. Esta son la lista de precios.
 
   ***LETRA***
   1. A -> 100 €
@@ -31,7 +28,7 @@ Crearemos una superclase llamada ***Electrodomestico*** con las siguientes carac
   3. ENTRE 50 Y 79 KG -> 80 €
   4. MAYOR QUE 80 KG -> 100€
  
-Crearemos una subclase llamada Lavadora con las siguientes características:
+Crearemos una subclase llamada ***Lavadora*** con las siguientes características:
 * Su atributo es ***carga***, además de los atributos heredados.
 * Por defecto, la carga es de 5 kg.
 * Los constructors que se implementarán serán:
@@ -44,20 +41,22 @@ Crearemos una subclase llamada Lavadora con las siguientes características:
  
 Crearmos una subclase llamada ***Televisión*** con las siguientes características:
 * Sus atributos son ***resolución*** en pulgadas y ***sintonizador TDT***(booleano), además de los atributos heredados.
-* Por defecto, la resolución será de 20 pulgadas y el sintonizador será false.
+* Por defecto, la resolución será de 20 pulgadas y el sintonizador será "false".
 * Los constructores que se implemntarán serán
   1. Un constructor por defecto.
   2. Un constructor con el precio y peso. El resto por defecto.
   3. Un constructor con la resolución, sintonizador TDT  y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre.
 * Los métodos que se implemntará serán:
   1. Método get de resolución y sintonizador TDT.
-  2. ***precioFinal()*** si tiene una resoloución mayor de 40 pulgadas, se incrementará el precio un 30 % y si tiene un sintoniador TDT incorporado, aumentará 50 €. Recuerda que las condiciones que hemos visto en la clase Electrdomestico también deben afectar al precio.
+  2. ***precioFinal()*** si tiene una resoloución mayor de 40 pulgadas, se incrementará el precio un 30 % y si tiene un sintoniador TDT incorporado, aumentará 50 €. 
+  3. Recuerda que las condiciones que hemos visto en la clase Electrdomestico también deben afectar al precio.
 
-Ahora la clase ejecutable que 
+Ahora la clase ejecutable que:
 * Cree un array de Electrodomésticos de 10 posiciones.
-* Asigna a cada posición un objto de las clases anteriores con los valores qu desees.
+* Asigna a cada posición un objeto de las clases anteriores con los valores que desees.
 * Ahora recorre este array y ejecuta el método ***precioFinal()***
-* Deberás mostrar el precio de cada clase, es decir, el precio de todas las operaciones de todas las televisiones por un lado, el de las lavadoras por otro y la suma de los Electrodomesticos(puedes crear objetos Electrodomestico, pero recuerda que Televisión y Lavadora también son electrodomésticos). Recuerda el uso operador instanceof.
+* Deberás mostrar el precio de cada clase, es decir, el precio de todas las operaciones de todas las televisiones por un lado, el de las lavadoras por otro y la suma de los Electrodomesticos(puedes crear objetos Electrodomestico, pero recuerda que Televisión y Lavadora también son electrodomésticos). Recuerda el uso operador <instanceof>.
 * Crea la clase prueba donde lanzemos test de cada clase y método creado.
+
 Fucinomanento:
-Por ejmplo, si tenemos un Electrodoméstico on un precio final de 300, una lavadora de 200 y una televisión de 500, el resultado final será 1000 (300+200+500)  300 para electrodomésticos, 200 para lavadoras y 500 para televisión.
+* Por ejmplo, si tenemos un Electrodoméstico con un precio final de 300, una lavadora de 200 y una televisión de 500, el resultado final será 1000 (300+200+500)  300 para electrodomésticos, 200 para lavadoras y 500 para televisión.
