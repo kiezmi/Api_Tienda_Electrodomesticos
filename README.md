@@ -1,69 +1,63 @@
-# HIS Frontend Angular
+#APP Tienda de electrodomesticos
 
-Actividad didáctica consistente en la creación de un frontend con angular y un mock simulando una app de gestión hospitalaria.
+Crearemos una superclase llamada Electrodomestico con las siguientes características:
 
-## Objetivos
+##Electrodomestico
+Crearemos una superclase llamada ***Electrodomestico*** con las siguientes características:
+* Sus atributos son ***precio base, color, consumo energético*** (letras entre A y F) y ***peso***. Indica que se podran heredar.
+* Por defecto, el color sera blanco, el consumo energético sera B, el precio Base es de 200€ y el peso de 5 kg.
+* Los colores disponibles son blanco, metal, rojo, verde y azúl.
+* Los constructores que se implementarán serán:
+  * Un constructor por defecto.
+  * Un construcor con el precio y peso. El resto por defecto.
+  * Un constructor con todos los atributos.
+* Los métodos que se implemntarán serán
+  * Los metodos getter/setter de todos los atributos.
+  * ***comprobarConsumoEnergetico(char letra)***: comprueba que la letra es correcta, sino es correcta usará la letra por defcto. Se inocará al crear el objeto y no será visible.
+  * ***comprobarColor(String color)***: comprueba que el color es correcto sino lo es usa el color por defecto. Se invocará al crar el objeto y no será visible.
+  * ***precioFinal()*** Según el consumo energetico, aumentará su prcio y según su tamaño también. Esta son la lista de precios.
 
-- Creación de una arquitectura avanzada de frontend MVC 
-- Gestión de usuarios con distintos roles
-- Uso avanzado de servicios siguiendo el principio de responsabilidad única.
-- Centralizar el estado de la app en un servicio central (llamado por ejemplo stateManagerService o dataService ) del cuál se nutren todos los componentes y servicios
-- Creación de vistas publicas y privadas gestionadas por el router del frontend haciendo uso del evento canActivate de la configuración del router
+  ***LETRA***
+  1. A -> 100 €
+  2. B -> 85 €
+  3. C -> 60 €
+  4. D -> 50 €
+  5. E -> 30 €
+  6. F -> 10 €
 
+  ***TAMAÑO***
+  1. ENTRE 0 Y 19 KG -> 10 €
+  2. ENTRE 20 Y 49 KG -> 50 €
+  3. ENTRE 50 Y 79 KG -> 80 €
+  4. MAYOR QUE 80 KG -> 100€
+ 
+Crearemos una subclase llamada Lavadora con las siguientes características:
+* Su atributo es ***carga***, además de los atributos heredados.
+* Por defecto, la carga es de 5 kg.
+* Los constructors que se implementarán serán:
+ 1. Un constructor por defecto.
+ 2. Un constructor con el precio y el peso. El resto por defecto.
+ 3. Un constructor con la carga y el resto de atributos heredados. Recurda que debes llamar al constructor de la clase de padre.
+* Los métodos que implementarán serán:
+ 1. Método get de carga.
+ 2. ***precioFinal()*** : Si tiene una arga mayor de 30 kg, aumentará el precio 50 €, sino es así no se incrementará el precio. Llama al método padre y añade el código necesario. Recuerda que las condiciones que hemms visto en la clase Electrodoméstico también deben afectar al precio.
+ 
+Crearmos una subclase llamada ***Televisión*** con las siguientes características:
+* Sus atributos son ***resolución*** en pulgadas y ***sintonizador TDT***(booleano), además de los atributos heredados.
+* Por defecto, la resolución será de 20 pulgadas y el sintonizador será false.
+* Los constructores que se implemntarán serán
+  1. Un constructor por defecto.
+  2. Un constructor con el precio y peso. El resto por defecto.
+  3. Un constructor con la resolución, sintonizador TDT  y el resto de atributos heredados. Recuerda que debes llamar al constructor de la clase padre.
+* Los métodos que se implemntará serán:
+  1. Método get de resolución y sintonizador TDT.
+  2. ***precioFinal()*** si tiene una resoloución mayor de 40 pulgadas, se incrementará el precio un 30 % y si tiene un sintoniador TDT incorporado, aumentará 50 €. Recuerda que las condiciones que hemos visto en la clase Electrdomestico también deben afectar al precio.
 
-## Roles
-
-- Doctor 
-- Patient
-- Technical
-- Admin (permiso root: puede hacer todo)
-
-
-## Api
-
-Simular la interacción con un backend mediante un servicio fake (mock) 
-
-- login()
-
-- getPatients()   // doctor, admin
-- getPatient(uid) //  doctor, admin, patient
-
-- getMedicalHistories() // doctor, admin
-- getMedicalHistory(id)  // doctor, admin, patient
-- postMedicalHistory(medicalHistory) // doctor
-
-- postDoctor(doctor)  // technical
-- postPatient(patient) // technical
-- postTechnical(technical) // technical
-
-### Vistas
-
-- Públicas
-    - /login
-- Privadas todos
-    - /dashboard (distribuidor da acceso al resto de vistas privadas según el role )
-- Privadas doctor
-    - /patients
-    - /patient/:id
-    - /histories
-    - /history/:id
-- Privadas technical
-    - /newUser/:role (role === 'admin' || role === 'doctor' || role === 'technical' )
-- Privadas patient
-    - /patient/:id  sólo puede ver su ficha
-    - /history/:id  sólo puede ver su historial
-
-# Ejemplos para probar la aplicacion
-
-## Admin
-- uid: "000", name: "Manolo", surname: "Fernandez", dni: "123456789K", username: "Manolo", password: "0"
-
-## Tecnico
-- uid: "001", name: "Javi", surname: "Guerra", dni: "123456789N", username: "Javi", password: "1"
-
-## Doctor
-- uid: "010", name: "Cristian", surname: "Martinez", dni: "123456789M", username: "Cristian", password: "10"
-
-## Paciente
-- uid: "100", name: "Juan", surname: "Lopez", dni: "123456789J", username: "Juan", password: "100"
-
+Ahora la clase ejecutable que 
+* Cree un array de Electrodomésticos de 10 posiciones.
+* Asigna a cada posición un objto de las clases anteriores con los valores qu desees.
+* Ahora recorre este array y ejecuta el método ***precioFinal()***
+* Deberás mostrar el precio de cada clase, es decir, el precio de todas las operaciones de todas las televisiones por un lado, el de las lavadoras por otro y la suma de los Electrodomesticos(puedes crear objetos Electrodomestico, pero recuerda que Televisión y Lavadora también son electrodomésticos). Recuerda el uso operador instanceof.
+* Crea la clase prueba donde lanzemos test de cada clase y método creado.
+Fucinomanento:
+Por ejmplo, si tenemos un Electrodoméstico on un precio final de 300, una lavadora de 200 y una televisión de 500, el resultado final será 1000 (300+200+500)  300 para electrodomésticos, 200 para lavadoras y 500 para televisión.
